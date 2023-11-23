@@ -8,7 +8,7 @@
 	<h2>www.malasngoding.com</h2>
 	<h3>Data Pegawai</h3>
  
-	<a href="/pegawai/tambah"> + Tambah Pegawai Baru</a>
+	<a href="/pegawaiii/tambah"> + Tambah Pegawai Baru</a>
 	
 	<br/>
 	<br/>
@@ -21,16 +21,16 @@
 			<th>Alamat</th>
 			<th>Opsi</th>
 		</tr>
-		@foreach($pegawai as $p)
+		@foreach($pegawaiii as $p)
 		<tr>
 			<td>{{ $p->pegawai_nama }}</td>
 			<td>{{ $p->pegawai_jabatan }}</td>
 			<td>{{ $p->pegawai_umur }}</td>
 			<td>{{ $p->pegawai_alamat }}</td>
 			<td>
-				<a href="/pegawai/edit/{{ $p->pegawai_id }}">Edit</a>
+				<a href="/pegawaiii/edit/{{ $p->pegawai_id }}">Edit</a>
 				|
-				<a href="/pegawai/hapus/{{ $p->pegawai_id }}">Hapus</a>
+				<a href="/pegawaiii/hapus/{{ $p->pegawai_id }}">Hapus</a>
 			</td>
 		</tr>
 		@endforeach

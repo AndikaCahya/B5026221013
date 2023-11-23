@@ -8,12 +8,12 @@
 	<h2><a href="https://www.malasngoding.com">www.malasngoding.com</a></h2>
 	<h3>Data Pegawai</h3>
  
-	<a href="/pegawai"> Kembali</a>
+	<a href="/pegawaiii"> Kembali</a>
 	
 	<br/>
 	<br/>
  
-	<form action="/pegawai/store" method="post">
+	<form action="/pegawaiii/store" method="post">
 		{{ csrf_field() }}
 		Nama <input type="text" name="nama"> <br/>
 		Jabatan <input type="text" name="jabatan"> <br/>
