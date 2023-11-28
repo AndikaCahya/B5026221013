@@ -33,6 +33,8 @@
 			<td>{{ $p->pegawai_umur }}</td>
 			<td>{{ $p->pegawai_alamat }}</td>
 			<td>
+				<a href="/pegawaiii/view/{{ $p->pegawai_id }}" class="btn btn-success">View</a>	
+				|
 				<a href="/pegawaiii/edit/{{ $p->pegawai_id }}" class="btn btn-warning">Edit</a>
 				|
 				<a href="/pegawaiii/hapus/{{ $p->pegawai_id }}" class="btn btn-danger">Hapus</a>
