@@ -13,7 +13,7 @@
 	<p>Cari Data Pegawai :</p>
 	<form action="/pegawaiii/cari" method="GET">
 		<input class="form-control" type="text" name="cari" placeholder="Cari Pegawai .." value="{{ old('cari', isset($cari) ? $cari : '') }}">
-		<input class="btn btn-primary" type="submit" value="CARI">
+		<input class="btn btn-primary mt-2" type="submit" value="CARI">
 	</form>
 
 	<br/>
