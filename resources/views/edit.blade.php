@@ -37,7 +37,7 @@
 		<div class="form-group">
 			<label for="alamat" class="col-sm-2 control-label">Alamat</label>
 			<div class="col-sm-4">
-				<textarea required="required" name="alamat" class="form-control">{{$p->pegawai_umur}}
+				<textarea required="required" name="alamat" class="form-control">{{$p->pegawai_alamat}}
 				</textarea>
 			</div>
 		</div>
