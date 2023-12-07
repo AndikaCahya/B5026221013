@@ -68,3 +68,16 @@ Route::post('/pegawaiii/update','App\Http\Controllers\PegawaiController@update')
 Route::get('/pegawaiii/hapus/{id}','App\Http\Controllers\PegawaiController@hapus');
 Route::get('/pegawaiii/cari','App\Http\Controllers\PegawaiController@cari');
 Route::get('/pegawaiii/view/{id}','App\Http\Controllers\PegawaiController@view');
+
+Route::get('/nilaikuliah','App\Http\Controllers\NilaiController@nilai');
+Route::get('/nilaikuliah/tambah','App\Http\Controllers\NilaiController@tambah');
+Route::post('/nilaikuliah/store','App\Http\Controllers\NilaiController@store');
+Route::get('/nilaikuliah/edit/{id}','App\Http\Controllers\NilaiController@edit');
+Route::post('/nilaikuliah/update','App\Http\Controllers\NilaiController@update');
+Route::get('/nilaikuliah/hapus/{id}','App\Http\Controllers\NilaiController@hapus');
+Route::get('/nilaikuliah/cari','App\Http\Controllers\NilaiController@cari');
+
+Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index');
+Route::get('/keranjangbelanja/tambah','App\Http\Controllers\KeranjangController@tambah');
+Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
+Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangController@hapus');
