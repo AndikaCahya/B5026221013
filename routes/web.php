@@ -81,3 +81,12 @@ Route::get('/keranjangbelanja','App\Http\Controllers\KeranjangController@index')
 Route::get('/keranjangbelanja/tambah','App\Http\Controllers\KeranjangController@tambah');
 Route::post('/keranjangbelanja/store','App\Http\Controllers\KeranjangController@store');
 Route::get('/keranjangbelanja/hapus/{id}','App\Http\Controllers\KeranjangController@hapus');
+
+Route::get('/mouse','App\Http\Controllers\MouseController@indexMouse');
+Route::get('/mouse/tambahMouse','App\Http\Controllers\MouseController@tambahMouse');
+Route::post('/mouse/store','App\Http\Controllers\MouseController@store');
+Route::get('/mouse/editMouse/{id}','App\Http\Controllers\MouseController@editMouse');
+Route::post('/mouse/update','App\Http\Controllers\MouseController@update');
+Route::get('/mouse/hapus/{id}','App\Http\Controllers\MouseController@hapus');
+Route::get('/mouse/cari','App\Http\Controllers\MouseController@cari');
+Route::get('/mouse/viewMouse/{id}','App\Http\Controllers\MouseController@viewMouse');
