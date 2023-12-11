@@ -90,3 +90,5 @@ Route::post('/mouse/update','App\Http\Controllers\MouseController@update');
 Route::get('/mouse/hapus/{id}','App\Http\Controllers\MouseController@hapus');
 Route::get('/mouse/cari','App\Http\Controllers\MouseController@cari');
 Route::get('/mouse/viewMouse/{id}','App\Http\Controllers\MouseController@viewMouse');
+
+Route::get('/chat','App\Http\Controllers\ChatController@indexChat');
