@@ -25,23 +25,23 @@ class ChatController extends Controller
                 switch($q){
                     case ":))":
                         $foto = "assets/img/1.png";
-                        $emoji[] = "<img src='$foto' alt=':))' class='emote'/>";
+                        $emoji[] = "<img src='$foto' alt=':))' style='width:20px ; height:20px'/>";
                         break;
                     case ":3":
                         $foto = "/assets/img/2.png";
-                        $emoji[] = "<img src='$foto' alt=':3' class='emote'/>";
+                        $emoji[] = "<img src='$foto' alt=':3' style='width:20px ; height:20px'/>";
                         break;
                     case ":P":
                         $foto = "/assets/img/3.png";
-                        $emoji[] = "<img src='$foto' alt=':P' class='emote'/>";
+                        $emoji[] = "<img src='$foto' alt=':P' style='width:20px ; height:20px'/>";
                         break;
                     case ":C":
                         $foto = "/assets/img/4.png";
-                        $emoji[] = "<img src='$foto' alt=':C' class='emote'/>";
+                        $emoji[] = "<img src='$foto' alt=':C' style='width:20px ; height:20px'/>";
                         break;
                     case ";)":
                         $foto = "/assets/img/5.png";
-                        $emoji[] = "<img src='$foto' alt=';)' class='emote'/>";
+                        $emoji[] = "<img src='$foto' alt=';)' style='width:20px ; height:20px'/>";
                         break;
                     default:
                         $emoji[] = $q;

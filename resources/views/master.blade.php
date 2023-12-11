@@ -12,11 +12,27 @@
 <body>
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand -->
+  <a class="navbar-brand" href="#">Welcome</a>
 
   <!-- Links -->
   <ul class="navbar-nav">
     <li class="nav-item">
-      <a class="nav-link" href="/chat" class="btn btn-success">CHAT</a>
+      <a class="nav-link" href="/pegawaiii">Pegawai</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/mouse">Mouse</a>
+    </li>
+    <!-- Dropdown -->
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Dropdown link
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="/keranjangbelanja">Keranjang Belanja</a>
+        <a class="dropdown-item" href="/nilaikuliah">Nilai Kuliah</a>
+        <a class="dropdown-item" href="/chat">Chat</a>
+      </div>
     </li>
   </ul>
 </nav>
